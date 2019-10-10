@@ -1,0 +1,9 @@
+.cache
+node_modules/
+src/
+test/
+Jenkinsfile
+testing/
+*.map
+*.log
+*.tgz

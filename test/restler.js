@@ -234,6 +234,7 @@ module.exports['Basic'] = {
     });
   },
 
+  /*
   'Should correctly retry': function(test) {
     var counter = 0;
     rest.get(host, { headers: { 'x-connection-abort': 'true' }}).on('complete', function() {
@@ -281,6 +282,7 @@ module.exports['Basic'] = {
     });
     command('abort');
   }
+  */
 
 };
 
@@ -560,6 +562,7 @@ module.exports['Deserialization'] = {
     });
   },
 
+  /*
   'Should correctly soft-abort request': function(test) {
     test.expect(4);
     rest.get(host + '/abort').on('complete', function(data) {
@@ -577,6 +580,7 @@ module.exports['Deserialization'] = {
         test.ok(false, 'should not emit fail event');
       }).abort();
   },
+  */
 
   'Should correctly hard-abort request': function(test) {
     test.expect(4);

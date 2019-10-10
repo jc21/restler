@@ -1,7 +1,7 @@
 {
-  "name": "restler",
+  "name": "@jc21/restler",
   "version": "3.4.0",
-  "description": "An HTTP client library for node.js",
+  "description": "An HTTP client library for node.js, forked with fixes",
   "contributors": [
     {
       "name": "Dan Webb",
@@ -12,10 +12,10 @@
       "email": "ben@marvell-consulting.com"
     }
   ],
-  "homepage": "https://github.com/danwrong/restler",
+  "homepage": "https://github.com/jc21/restler",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danwrong/restler.git"
+    "url": "https://github.com/jc21/restler.git"
   },
   "directories": {
     "lib": "./lib"
